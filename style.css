@@ -9,6 +9,15 @@
 body {
 	background-color: hsl(210, 46%, 95%);
 	font-family: "Barlow Semi Condensed", sans-serif;
+	padding: 0 10%;
+}
+
+.top-card {
+	color: white;
+
+	&.daniel-info-card {
+		background-color: blue;
+	}
 }
 
 .daniel {
@@ -17,7 +26,6 @@ body {
 
 .jonathan {
 	background-color: hsl(217, 19%, 35%);
-	color: white;
 }
 
 .jeanette {
