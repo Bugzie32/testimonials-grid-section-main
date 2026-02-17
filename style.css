@@ -6,13 +6,38 @@
 	margin: 0;
 	padding: 0;
 }
-html {
-	font-size: 62.5%;
-}
-
 :root {
 	--clr-purple: hsl(263, 55%, 52%);
 	--clr-gray: hsl(217, 19%, 35%);
 	--clr-blackish-blue: hsl(219, 29%, 14%);
 	--clr-white: hsl(0, 0%, 100%);
+	--clr-light-gray: hsl(0, 0%, 81%);
+	--clr-light-grayish-blue: hsl(210, 46%, 95%);
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: var(--clr-light-grayish-blue);
+	display: flex;
+}
+
+.daniel-card {
+	background-color: var(--clr-purple);
+}
+
+.jonathan-card {
+	background-color: var(--clr-gray);
+}
+
+.jeanette-card {
+	background-color: var(--clr-white);
+}
+
+.patrick-card {
+	background-color: var(--clr-blackish-blue);
+}
+
+.kira-card {
+	background-color: var(--clr-white);
 }
