@@ -18,8 +18,20 @@ html {
 	font-size: 62.5%;
 }
 body {
+	font-family: "Barlow Semi Condensed", sans-serif;
 	background-color: var(--clr-light-grayish-blue);
+	min-height: 100vh;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4em 2em;
+}
+
+main {
+	max-width: 1110px;
+	width: 100%;
+	display: flex;
+	gap: 3em;
 }
 
 .daniel-card {
